@@ -390,6 +390,8 @@ git add -A && git commit -m "Describe the change" && git push
    ```bash
    npx vercel git connect https://github.com/manideeppeyyala/amma-dishti
    ```
+   **Status: connected on 10 October 2026.** A push to `main` now builds and publishes by itself in well under a minute.
+
    If the CLI says Vercel has no access to the repository, open the project in the Vercel dashboard →
    **Settings → Git → Connect Git Repository**, choose GitHub, install the Vercel GitHub app for the
    `manideeppeyyala` account and pick `amma-dishti`. Until that is done, deploy by hand with the command in step 2.
